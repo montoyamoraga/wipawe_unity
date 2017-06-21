@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="portland_vuforia" size="1.000000 0.647059" />
+    <ImageTarget name="mapspage_online_v6_vuforia" size="1.000000 0.647059" />
     <ImageTarget name="webGL_v4_vuforia" size="1.000000 0.647059" />
     <ImageTarget name="chat_page_v4_vuforia" size="1.000000 0.647059" />
-    <ImageTarget name="maps_irl_text-vuforia" size="1.000000 0.647128" />
     <ImageTarget name="python_4_vuforia" size="1.000000 0.647059" />
-    <ImageTarget name="mapspage_online_v3_vuforia" size="1.000000 0.647059" />
     <ImageTarget name="insta-vuforia" size="1.000000 0.647128" />
   </Tracking>
 </QCARConfig>

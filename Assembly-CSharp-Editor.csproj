@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{15D6CE17-479B-3BB8-A602-5B37D2E04901}</ProjectGuid>
+    <ProjectGuid>{F8683F96-A546-5CC1-EAC1-2C3F5B2F5668}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -48,13 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\Vuforia\SampleOrientationSetter.cs" />
      <Compile Include="Assets\Funnel\Editor\FunnelEditor.cs" />
-     <Compile Include="Assets\Kvant\Spray\Editor\SprayEditor.cs" />
-     <Compile Include="Assets\Kvant\Spray\Editor\SpraySurfaceMaterialEditor.cs" />
-     <Compile Include="Assets\Kvant\Spray\Editor\SprayUnlitMaterialEditor.cs" />
      <Compile Include="Assets\Kvant\Swarm\Editor\SwarmEditor.cs" />
-     <Compile Include="Assets\SamplesResources\CloudReco\Editor\CloudRecoEventHandlerEditor.cs" />
-     <Compile Include="Assets\SamplesResources\UserDefinedTargets\Editor\UDTEventHandlerEditor.cs" />
-     <Compile Include="Assets\SamplesResources\VuforiaSamplesUI\Editor\SamplesConfigUIEditor.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
      <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -63,47 +57,32 @@
      <None Include="Assets\Kvant\Swarm\Shaders\SimplexNoiseGrad3D.cginc" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\sodacan.xml" />
-     <None Include="Assets\SamplesResources\CloudReco\Shaders\CR_Custom_TransparentUnlit.shader" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
-     <None Include="Assets\Kvant\Spray\Shaders\Opaque.shader" />
      <None Include="Assets\Vuforia\Shaders\RenderVideoBackground.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\StonesAndWood.xml" />
      <None Include="Assets\readme_SDK.txt" />
      <None Include="Assets\GrabPassDistortion\GrabPassDistortion_Particle.shader" />
      <None Include="Assets\GrabPassDistortion\GrabPassDistortion.cginc" />
      <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
      <None Include="Assets\StreamingAssets\QCAR\StonesAndChips.xml" />
      <None Include="Assets\license_3rdpartynotice.txt" />
-     <None Include="Assets\StreamingAssets\Vuforia\Vuforia.xml" />
      <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
      <None Include="Assets\Funnel\Shader\Gamma.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\FlakesBox.xml" />
-     <None Include="Assets\Kvant\Spray\Shaders\Kernel.shader" />
      <None Include="Assets\StreamingAssets\QCAR\Tarmac.xml" />
+     <None Include="Assets\StreamingAssets\QCAR\thesis.xml" />
      <None Include="Assets\Kvant\Swarm\Shaders\Kernel.shader" />
-     <None Include="Assets\Kvant\Spray\Shaders\Common.cginc" />
-     <None Include="Assets\SamplesResources\ObjectReco\Shaders\ObjectReco_Custom_Outline.shader" />
-     <None Include="Assets\Kvant\Spray\Shaders\Unlit.shader" />
      <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
-     <None Include="Assets\Kvant\Spray\Shaders\Debug.shader" />
      <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
-     <None Include="Assets\SamplesResources\VuMark\Shaders\VuMark_Custom_OverlayMesh.shader" />
      <None Include="Assets\GrabPassDistortion\GrabPassDistortion.shader" />
-     <None Include="Assets\valence_value.txt" />
      <None Include="Assets\Kvant\Swarm\Shaders\Surface.shader" />
      <None Include="Assets\GrabPassDistortion\GrabPassDistortion_Layer.shader" />
-     <None Include="Assets\Kvant\Spray\Shaders\SimplexNoiseGrad3D.cginc" />
-     <None Include="Assets\Editor\Vuforia\Vuforia\authoringinfo.xml" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
-     <None Include="Assets\StreamingAssets\QCAR\thesis.xml" />
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
- <HintPath>/Users/wipawe/wipawe_unity/thesis/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
+ <HintPath>/Users/wipawe/thesis_final/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/wipawe/wipawe_unity/thesis/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/wipawe/thesis_final/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
@@ -175,10 +154,10 @@
  <HintPath>/Applications/Unity/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>/Users/wipawe/wipawe_unity/thesis/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>/Users/wipawe/thesis_final/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>/Users/wipawe/wipawe_unity/thesis/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>/Users/wipawe/thesis_final/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -189,7 +168,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{2C16802C-ADEB-B432-D41B-6112C51E098A}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{43E228E6-3AE8-5680-F857-1122C9E626DC}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
